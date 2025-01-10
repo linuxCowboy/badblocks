@@ -14,3 +14,5 @@ So _can_ and _should_ badblocks look like:
 ![Screenshot](pics/badblocks2.png)  
 *finish*
 
+![Screenshot](pics/badblocks3.png)  
+*it's getting better*
