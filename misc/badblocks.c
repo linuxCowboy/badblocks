@@ -159,7 +159,7 @@ static int bb_output (blk_t bad, enum error_types error_type)
 	if (ext2fs_badblocks_list_test(bb_list, bad))
 		return 0;
 
-	fprintf(out, "%lu\n", (unsigned long) bad);
+	fprintf(out, "\e[K%lu\n", (unsigned long) bad);
 	fflush(out);
 
 	errcode = ext2fs_badblocks_list_add (bb_list, bad);
